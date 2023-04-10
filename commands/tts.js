@@ -2,12 +2,12 @@ const { SlashCommandBuilder } = require("discord.js");
 const { joinVoiceChannel, createAudioResource } = require("@discordjs/voice");
 const { createAudioPlayer, NoSubscriberBehavior } = require("@discordjs/voice");
 
-const { elevenLabsAI, voice_1 } = require("../config.json");
+const { elevenLabsAI, voice } = require("../config.json");
 
 const axios = require("axios");
 const fs = require("fs");
 
-const url = `https://api.elevenlabs.io/v1/text-to-speech/${voice_1}`;
+const url = `https://api.elevenlabs.io/v1/text-to-speech/${voice}`;
 
 module.exports = {
   data: new SlashCommandBuilder()
