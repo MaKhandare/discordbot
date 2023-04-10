@@ -29,10 +29,8 @@ A simple discord bot with [discord.js](https://discordjs.guide/#before-you-begin
 
 `token, clientId` and `guildId` are discord related.
 
-3. Add `config.json` to `.gitignore` if needed
+3. `npm install` to install dependencies
 
-4. `npm install` to install dependencies
+4. `node ./deploy-commands.js`
 
-5. `node ./deploy-commands.js`
-
-6. `node ./index.js`
+5. `node ./index.js`
